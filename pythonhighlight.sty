@@ -7,6 +7,8 @@
 \RequirePackage{listings}
 \RequirePackage{xcolor}
 \RequirePackage{xparse}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
 
 \renewcommand*{\lstlistlistingname}{Code Listings}
 \renewcommand*{\lstlistingname}{Code Listing}
@@ -33,6 +35,9 @@
 %keepspaces=true,
 language=python,
 inputencoding=utf8,
+extendedchars=true,
+texcl=true,
+mathescape=true,
 showtabs=true,
 tab=,
 tabsize=2,
@@ -67,6 +72,24 @@ emphstyle={[7]\color{keywordcolour}\bfseries},
 % emph={[7]self},
 % emphstyle=[7]\bfseries,
 literate=*%
+{Ą}{{\k{A}}}1
+{ą}{{\k{a}}}1
+{Ę}{{\k{E}}}1
+{ę}{{\k{e}}}1
+{Į}{{\k{I}}}1
+{į}{{\k{i}}}1
+{Ų}{{\k{U}}}1
+{ų}{{\k{u}}}1
+{Ė}{{\dot{E}}}1
+{ė}{{\dot{e}}}1
+{Č}{{\v{C}}}1
+{č}{{\v{c}}}1
+{Š}{{\v{S}}}1
+{š}{{\v{s}}}1
+{Ž}{{\v{Z}}}1
+{ž}{{\v{z}}}1
+{Ū}{{\=U}}1
+{ū}{{\=u}}1
 {:}{{\literatecolour:}}{1}%
 {=}{{\literatecolour=}}{1}%
 {-}{{\literatecolour-}}{1}%
@@ -129,6 +152,24 @@ keywordstyle=\color{keywordcolour},%
 emphstyle={[7]\color{keywordcolour}},%
 emphstyle=\color{exceptioncolour},%
 literate=*%
+{Ą}{{\k{A}}}1
+{ą}{{\k{a}}}1
+{Ę}{{\k{E}}}1
+{ę}{{\k{e}}}1
+{Į}{{\k{I}}}1
+{į}{{\k{i}}}1
+{Ų}{{\k{U}}}1
+{ų}{{\k{u}}}1
+{Ė}{{\dot{E}}}1
+{ė}{{\dot{e}}}1
+{Č}{{\v{C}}}1
+{č}{{\v{c}}}1
+{Š}{{\v{S}}}1
+{š}{{\v{s}}}1
+{Ž}{{\v{Z}}}1
+{ž}{{\v{z}}}1
+{Ū}{{\=U}}1
+{ū}{{\=u}}1
 {:}{{\literatecolour:}}{2}%
 {=}{{\literatecolour=}}{2}%
 {-}{{\literatecolour-}}{2}%
