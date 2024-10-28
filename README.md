@@ -3,8 +3,7 @@ Python highlighting in LaTeX
 
 A simple Python highlighting style to be used with LaTeX.
 
-============================
-Example
+# Example
 ```python
 class ObjectiveFunction:
     counter = 0
@@ -24,9 +23,9 @@ class ObjectiveFunction:
         ObjectiveFunction.counter = 0
 ```
 The above code block will look like this in PDF:
-![img](img.png)
+![alt text](https://i.ibb.co/vYL2xCv/img.png)
 
-============================
+---
 
 The package is loaded by the following line:
 
